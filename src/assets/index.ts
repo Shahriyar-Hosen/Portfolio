@@ -1,25 +1,38 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
+import close from "./close.svg";
 import creator from "./creator.png";
+import github from "./github.png";
+import logo from "./logo.svg";
+import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
 
+import bootstrap from "./tech/bootstrap.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import ExpressJs from "./tech/Express-js.png";
 import figma from "./tech/figma.png";
+import firebase from "./tech/firebase.png";
 import git from "./tech/git.png";
+import githubLite from "./tech/github.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
+import mySQL from "./tech/mySQL.png";
+import Netlify from "./tech/Netlify.png";
+import NextJs from "./tech/NextJs.png";
 import nodejs from "./tech/nodejs.png";
+import php from "./tech/php.svg";
+import query from "./tech/react-query.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import sass from "./tech/sass.svg";
+import styledComponents from "./tech/styled-components.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import typescript from "./tech/typescript.png";
+import VSCode from "./tech/VS-Code.png";
+import WordPress from "./tech/WordPress.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +72,17 @@ export {
   carrent,
   jobit,
   tripguide,
+  query,
+  firebase,
+  NextJs,
+  ExpressJs,
+  VSCode,
+  Netlify,
+  githubLite,
+  styledComponents,
+  bootstrap,
+  sass,
+  php,
+  WordPress,
+  mySQL,
 };

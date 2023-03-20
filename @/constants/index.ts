@@ -1,28 +1,38 @@
 import {
   backend,
+  bootstrap,
   carrent,
   creator,
   css,
-  docker,
+  ExpressJs,
   figma,
+  firebase,
   git,
+  github,
   html,
   javascript,
   jobit,
   meta,
   mobile,
   mongodb,
+  mySQL,
+  NextJs,
   nodejs,
+  php,
+  query,
   reactjs,
   redux,
+  sass,
   shopify,
   starbucks,
+  styledComponents,
   tailwind,
   tesla,
-  threejs,
   tripguide,
   typescript,
+  VSCode,
   web,
+  WordPress,
 } from "~/assets";
 
 export const navLinks = [
@@ -31,8 +41,16 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "experience",
+    title: "Experience",
   },
   {
     id: "contact",
@@ -54,7 +72,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Wordpress Developer",
     icon: creator,
   },
 ];
@@ -97,20 +115,63 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Express JS",
+    icon: ExpressJs,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "VS Code",
+    icon: VSCode,
+  },
+];
+
+const test = [
+  {
+    name: "NextJs",
+    icon: NextJs,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "styled-components",
+    icon: styledComponents,
+  },
+  {
+    name: "sass",
+    icon: sass,
+  },
+  {
+    name: "React Query",
+    icon: query,
+  },
+  {
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "GitHub",
+    icon: github,
+  },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "WordPress",
+    icon: WordPress,
+  },
+  {
+    name: "WordPress",
+    icon: mySQL,
   },
 ];
 
@@ -262,4 +323,21 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+// " " Means <br/>
+const about = [
+  `I'm a skilled software developer with experience in TypeScript and
+  JavaScript, and expertise in frameworks like React, Redux, and Node.js.`,
+  " ",
+  " ",
+  `I'm passionate about building excellent software that improves the lives
+  of those around me. I specialize in creating software for clients ranging
+  from individuals and small businesses to large enterprise corporations.`,
+  " ",
+  " ",
+  `I'm a quick learner and collaborate closely with clients to create
+  efficient, scalable, and user-friendly solutions that solve real-world
+  problems. Let's work together to bring your ideas to life! What would you
+  do if you had a software expert available at your fingertips?`,
+];
+
+export { about, services, technologies, experiences, testimonials, projects };
