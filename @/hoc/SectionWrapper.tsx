@@ -4,7 +4,7 @@ import { FC } from "react";
 import { staggerContainer } from "@/utils/motion";
 import { styles } from "~/styles";
 
-const StarWrapper = (Component: FC, idName: any) =>
+const StarWrapper = (Component: FC, idName: string) =>
   function HOC() {
     return (
       <motion.section

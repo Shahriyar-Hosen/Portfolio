@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import Loader from "./Loader";
 import SubTitle from "./SubTitle";
+import CommonText from "./Text";
 import Title from "./Title";
 
 export interface TitleProps {
@@ -9,4 +10,4 @@ export interface TitleProps {
   hero?: boolean;
 }
 
-export { Title, SubTitle, Loader };
+export { Title, SubTitle, CommonText, Loader };
