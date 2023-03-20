@@ -1,9 +1,9 @@
-import { fadeIn, textVariant } from "@/utils/motion";
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 
 import { services } from "@/constants";
 import { SectionWrapper } from "@/hoc";
+import { fadeIn, textVariant } from "@/utils/motion";
 import { styles } from "~/styles";
 
 interface ServiceCardProps {

@@ -8,7 +8,7 @@ import {
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 
-import CanvasLoader from "../Loader";
+import CanvasLoader from "@/common/Loader";
 
 const Ball = (props: any) => {
   const [decal] = useTexture([props.imgUrl]);
