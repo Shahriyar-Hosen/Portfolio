@@ -1,9 +1,14 @@
-import React from 'react'
+import { Head, NavigateToBottom } from "~🫀~/section/Hero";
+import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <div>Hero</div>
-  )
-}
+    <section className={`relative w-full h-screen mx-auto`}>
+      <Head />
+      <ComputersCanvas />
+      <NavigateToBottom />
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;
