@@ -10,8 +10,8 @@ import {
   git,
   github,
   html,
+  inmogr,
   javascript,
-  meta,
   mobile,
   mongodb,
   mySQL,
@@ -22,11 +22,8 @@ import {
   reactjs,
   redux,
   sass,
-  shopify,
-  starbucks,
   styledComponents,
   tailwind,
-  tesla,
   toolsManufacturer,
   travelAgency,
   typescript,
@@ -177,6 +174,20 @@ const test = [
 
 const experiences = [
   {
+    title: "Full stack Developer",
+    company_name: "Inmogr",
+    icon: inmogr,
+    iconBg: "#E6DEDD",
+    date: "Nov 2022 - Feb 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  /* 
+    {
     title: "React.js Developer",
     company_name: "Starbucks",
     icon: starbucks,
@@ -215,19 +226,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  */
 ];
 
 const testimonials = [

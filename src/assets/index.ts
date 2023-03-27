@@ -38,6 +38,7 @@ import typescript from "./tech/typescript.png";
 import VSCode from "./tech/VS-Code.png";
 import WordPress from "./tech/WordPress.svg";
 
+import inmogr from "./company/inmogr.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -48,6 +49,7 @@ import toolsManufacturer from "./tools-manufacturer.png";
 import travelAgency from "./travel-agency.png";
 
 export {
+  inmogr,
   toolsManufacturer,
   booksWarehouse,
   eye,
