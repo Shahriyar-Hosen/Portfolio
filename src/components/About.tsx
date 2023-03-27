@@ -4,7 +4,7 @@ import { CommonText, SubTitle, Title } from "@/common";
 import { about, services } from "@/constants";
 import { SectionWrapper } from "@/hoc";
 import { textVariant } from "@/utils/motion";
-import { ServiceCard } from "~🫀~/section/About";
+import { ServiceCard } from "./section/About";
 
 const About = () => (
   <>
@@ -14,7 +14,9 @@ const About = () => (
     </motion.div>
 
     <CommonText>
-      {about.map((text) => (text === " " ? <br /> : <span>{text} </span>))}
+      {about.map((text, i) =>
+        text === " " ? <br key={i} /> : <span key={i}>{text} </span>
+      )}
     </CommonText>
 
     <div className="mt-20 flex flex-wrap gap-10">

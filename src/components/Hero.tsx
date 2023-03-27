@@ -1,5 +1,5 @@
-import { Head, NavigateToBottom } from "~🫀~/section/Hero";
 import { ComputersCanvas } from "./canvas";
+import { Head, NavigateToBottom } from "./section/Hero";
 
 const Hero = () => {
   return (
