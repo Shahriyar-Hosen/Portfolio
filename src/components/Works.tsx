@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 import { CommonText, Title } from "@/common";
 import { projects } from "@/constants";
+import { memo } from "react";
+
 import { SectionWrapper } from "@/hoc";
 import { textVariant } from "@/utils/motion";
-import { memo } from "react";
-import Details from "./section/Project/Details";
-import ProjectCard from "./section/Project/ProjectCard";
+import { Details, ProjectCard } from "./section/Project";
 
 const Works = memo(() => (
   <>
