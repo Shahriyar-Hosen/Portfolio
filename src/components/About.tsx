@@ -4,7 +4,7 @@ import { CommonText, SubTitle, Title } from "@/common";
 import { about, services } from "@/constants";
 import { SectionWrapper } from "@/hoc";
 import { textVariant } from "@/utils/motion";
-import { ServiceCard } from "~🫀~/section/About";
+import { ServiceCard } from "./section/About";
 
 const About = () => (
   <>

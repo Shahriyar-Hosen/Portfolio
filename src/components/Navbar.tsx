@@ -1,7 +1,7 @@
 import { memo, useEffect, useState } from "react";
 
 import { styles } from "~/styles";
-import { MainLogo, Menu, MobileMenu } from "~🫀~/section/Navbar";
+import { MainLogo, Menu, MobileMenu } from "./section/Navbar";
 
 const Navbar = memo(() => {
   const [active, setActive] = useState("");

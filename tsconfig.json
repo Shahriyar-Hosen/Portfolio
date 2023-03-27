@@ -29,9 +29,6 @@
       ],
       "_/*": [
         "./_/*"
-      ],
-      "~🫀~/*": [
-        "./src/components/*"
       ]
     }
   },
@@ -41,7 +38,6 @@
     "./src",
     "./testing",
     "./types",
-    "./zsecrete"
   ],
   "references": [
     {
