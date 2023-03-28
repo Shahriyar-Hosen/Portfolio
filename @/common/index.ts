@@ -3,7 +3,6 @@ import Loader from "./Loader";
 import SubTitle from "./SubTitle";
 import CommonText from "./Text";
 import Title from "./Title";
-import SocialIcon from "./SocialIcon";
 
 export interface TitleProps {
   children: ReactNode;
@@ -11,4 +10,4 @@ export interface TitleProps {
   hero?: boolean;
 }
 
-export { Title, SubTitle, CommonText, Loader, SocialIcon };
+export { Title, SubTitle, CommonText, Loader };

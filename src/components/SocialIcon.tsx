@@ -1,8 +1,6 @@
-import { memo } from "react";
-
 import { IconBox } from "~/components/section/SocialIcon";
 
-const SocialIcon = memo(() => (
+const SocialIcon = () => (
   <div className="hidden sm:flex fixed flex-col top-[35%] left-0 z-50">
     <IconBox
       name="Linkedin"
@@ -25,6 +23,6 @@ const SocialIcon = memo(() => (
       link="https://drive.google.com/file/d/179ghgxLUElR0nqTitTeSVwWsuMSnx-GQ/view"
     />
   </div>
-));
+);
 
 export default SocialIcon;
