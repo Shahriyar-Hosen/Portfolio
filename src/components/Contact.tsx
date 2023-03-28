@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { ChangeEvent, useRef, useState } from "react";
+import { motion } from "framer-motion";
+import { ChangeEvent, memo, useRef, useState } from "react";
 
 import { CommonText, Title } from "@/common";
 import { SectionWrapper } from "@/hoc";
@@ -8,7 +8,7 @@ import { slideIn } from "@/utils/motion";
 import { EarthCanvas } from "./canvas";
 import { InputBox } from "./section/Contact";
 
-const Contact = () => {
+const Contact = memo(() => {
   const formRef: React.RefObject<any> = useRef<any>(null);
   const [form, setForm] = useState({
     name: "",
@@ -118,6 +118,6 @@ const Contact = () => {
       </motion.div>
     </div>
   );
-};
+});
 
 export default SectionWrapper(Contact, "contact");
