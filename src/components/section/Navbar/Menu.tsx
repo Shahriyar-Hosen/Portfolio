@@ -8,8 +8,8 @@ const Menu = memo(
     <ul
       className={`${
         mobile
-          ? " flex justify-end items-start flex-1 flex-col gap-4"
-          : " hidden sm:flex flex-row gap-10"
+          ? "flex justify-end items-start flex-1 flex-col gap-4"
+          : " hidden lg:flex flex-row gap-10"
       } list-none`}
     >
       {navLinks.map((nav) => (
