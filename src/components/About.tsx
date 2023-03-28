@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { motion } from "framer-motion";
 
 import { CommonText, SubTitle, Title } from "@/common";
@@ -6,7 +7,7 @@ import { SectionWrapper } from "@/hoc";
 import { textVariant } from "@/utils/motion";
 import { ServiceCard } from "./section/About";
 
-const About = () => (
+const About = memo(() => (
   <>
     <motion.div variants={textVariant()}>
       <SubTitle>Introduction</SubTitle>
@@ -25,6 +26,6 @@ const About = () => (
       ))}
     </div>
   </>
-);
+));
 
 export default SectionWrapper(About, "about");

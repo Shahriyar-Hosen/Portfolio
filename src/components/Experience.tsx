@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { motion } from "framer-motion";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 
@@ -7,7 +8,6 @@ import { CommonText, Title } from "@/common";
 import { experiences } from "@/constants";
 import { SectionWrapper } from "@/hoc";
 import { textVariant } from "@/utils/motion";
-import { memo } from "react";
 import { ExperienceCard } from "./section/Experiences";
 
 const Experience = memo(() => (

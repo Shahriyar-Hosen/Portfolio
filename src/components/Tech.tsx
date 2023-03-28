@@ -1,9 +1,11 @@
+import { memo } from "react";
+
 import { CommonText, Title } from "@/common";
 import { technologies } from "@/constants";
 import { SectionWrapper } from "@/hoc";
 import { BallCanvas } from "./canvas";
 
-const Tech = () => (
+const Tech = memo(() => (
   <>
     <div className="flex flex-col justify-center items-center">
       <CommonText>My Skills.</CommonText>
@@ -17,6 +19,6 @@ const Tech = () => (
       ))}
     </div>
   </>
-);
+));
 
 export default SectionWrapper(Tech, "skills");
