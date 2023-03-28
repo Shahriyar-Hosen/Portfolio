@@ -1,7 +1,7 @@
 import {
   backend,
+  booksWarehouse,
   bootstrap,
-  carrent,
   creator,
   css,
   ExpressJs,
@@ -10,9 +10,8 @@ import {
   git,
   github,
   html,
+  inmogr,
   javascript,
-  jobit,
-  meta,
   mobile,
   mongodb,
   mySQL,
@@ -23,12 +22,10 @@ import {
   reactjs,
   redux,
   sass,
-  shopify,
-  starbucks,
   styledComponents,
   tailwind,
-  tesla,
-  tripguide,
+  toolsManufacturer,
+  travelAgency,
   typescript,
   VSCode,
   web,
@@ -177,6 +174,20 @@ const test = [
 
 const experiences = [
   {
+    title: "Full stack Developer",
+    company_name: "Inmogr",
+    icon: inmogr,
+    iconBg: "#E6DEDD",
+    date: "Nov 2022 - Feb 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  /* 
+    {
     title: "React.js Developer",
     company_name: "Starbucks",
     icon: starbucks,
@@ -215,19 +226,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  */
 ];
 
 const testimonials = [
@@ -259,66 +258,69 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Travel Agency",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a travel agency and booking website. This app is help full for travelers. Through it, travelers can get ideas about different places and can get details or ideas about that place.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "Redux Toolkit",
         color: "pink-text-gradient",
       },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
     ],
-    image: carrent,
+    image: travelAgency,
+    live_link: "https://traveling-agency.web.app/",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Caliph Tools Manufacturer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This is a website for a tools manufacturer that provides different user interfaces for both general users and admin users.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: toolsManufacturer,
+    live_link: "https://caliph-tools-manufacturer.web.app/",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "BD Books Warehouse",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This app is related to product storage accounting and product management.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: booksWarehouse,
+    live_link: "",
     source_code_link: "https://github.com/",
   },
 ];

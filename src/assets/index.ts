@@ -7,6 +7,10 @@ import menu from "./menu.svg";
 import mobile from "./mobile.png";
 import web from "./web.png";
 
+import eyeOutline from "./eye-outline.svg";
+import eye from "./eye.svg";
+import openOutline from "./open-outline.svg";
+import open from "./open.svg";
 import bootstrap from "./tech/bootstrap.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -34,16 +38,25 @@ import typescript from "./tech/typescript.png";
 import VSCode from "./tech/VS-Code.png";
 import WordPress from "./tech/WordPress.svg";
 
+import inmogr from "./company/inmogr.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import booksWarehouse from "./bd-books-warehouse.png";
+import toolsManufacturer from "./tools-manufacturer.png";
+import travelAgency from "./travel-agency.png";
 
 export {
+  inmogr,
+  toolsManufacturer,
+  booksWarehouse,
+  eye,
+  open,
+  eyeOutline,
+  openOutline,
+  travelAgency,
   logo,
   backend,
   creator,
@@ -69,9 +82,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
   query,
   firebase,
   NextJs,
