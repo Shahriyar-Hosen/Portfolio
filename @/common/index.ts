@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import Button from "./Button";
 import Loader from "./Loader";
 import SubTitle from "./SubTitle";
 import CommonText from "./Text";
@@ -10,4 +11,4 @@ export interface TitleProps {
   hero?: boolean;
 }
 
-export { Title, SubTitle, CommonText, Loader };
+export { Title, SubTitle, CommonText, Loader, Button };
