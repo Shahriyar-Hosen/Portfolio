@@ -26,7 +26,7 @@ const Resume = memo(() => (
     <Button
       onClick={() =>
         window.open(
-          " https://drive.google.com/u/0/uc?id=179ghgxLUElR0nqTitTeSVwWsuMSnx-GQ&export=download",
+          "https://drive.google.com/u/0/uc?id=179ghgxLUElR0nqTitTeSVwWsuMSnx-GQ&export=download",
           "_blank"
         )
       }
