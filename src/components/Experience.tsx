@@ -1,5 +1,5 @@
-import { memo } from "react";
 import { motion } from "framer-motion";
+import { memo } from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 
 import "react-vertical-timeline-component/style.min.css";
