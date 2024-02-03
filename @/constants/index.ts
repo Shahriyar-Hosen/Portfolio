@@ -440,50 +440,6 @@ const projects = [
     live_link: "https://traveling-agency.web.app/",
     source_code_link: "https://github.com/Shahriyar-Hosen",
   },
-  // {
-  //   name: "Caliph Tools Manufacturer",
-  //   description:
-  //     "This is a website for a tools manufacturer that provides different user interfaces for both general users and admin users.",
-  //   tags: [
-  //     {
-  //       name: "React",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Firebase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Tailwind CSS",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: toolsManufacturer,
-  //   live_link: "https://caliph-tools-manufacturer.web.app/",
-  //   source_code_link: "https://github.com/Shahriyar-Hosen",
-  // },
-  // {
-  //   name: "BD Books Warehouse",
-  //   description:
-  //     "This app is related to product storage accounting and product management.",
-  //   tags: [
-  //     {
-  //       name: "React",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "Firebase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "Bootstrap",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: booksWarehouse,
-  //   live_link: "",
-  //   source_code_link: "https://github.com/Shahriyar-Hosen",
-  // },
 ];
 
 // " " Means <br/>
