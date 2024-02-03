@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { memo } from "react";
+import { FC, memo } from "react";
 import Tilt from "react-parallax-tilt";
 
 import { fadeIn } from "@/utils/motion";
@@ -18,16 +18,8 @@ interface ProjectCardProps {
   index: number;
 }
 
-const ProjectCard = memo(
-  ({
-    index,
-    name,
-    description,
-    tags,
-    image,
-    source_code_link,
-    live_link,
-  }: ProjectCardProps) => (
+const ProjectCard: FC<ProjectCardProps> = memo(
+  ({ index, name, description, tags, image, source_code_link, live_link }) => (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         // options={{

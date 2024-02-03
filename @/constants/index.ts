@@ -1,7 +1,7 @@
 import {
   backend,
-  booksWarehouse,
   bootstrap,
+  ConnectDesk,
   creator,
   css,
   ExpressJs,
@@ -11,7 +11,9 @@ import {
   github,
   html,
   inmogr,
+  InvestorInsights,
   javascript,
+  lifeRecovery,
   mobile,
   mongodb,
   mySQL,
@@ -24,7 +26,8 @@ import {
   sass,
   styledComponents,
   tailwind,
-  toolsManufacturer,
+  TheSultanLuxuryHotel,
+  ticoli,
   travelAgency,
   typescript,
   VSCode,
@@ -258,6 +261,164 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Connect Desk",
+    description:
+      "ConnectDesk is a software development company. The company works with business solutions for SME traders.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "daisy UI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "formik",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "yup",
+        color: "green-text-gradient",
+      },
+    ],
+    image: ConnectDesk,
+    live_link: "https://connect-desk-bh.vercel.app",
+    source_code_link: "https://github.com/Shahriyar-Hosen",
+  },
+  {
+    name: "Life Recovery",
+    description:
+      "This is an Islamic application. Through this, users can keep track of their daily activities, which will act as reminders.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux Toolkit",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RTK Query",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "moment",
+        color: "green-text-gradient",
+      },
+    ],
+    image: lifeRecovery,
+    live_link: "https://life-recovery-f582f.web.app/",
+    source_code_link: "https://github.com/Shahriyar-Hosen",
+  },
+  {
+    name: "Investor Insights",
+    description:
+      "Your go-to resource for insightful investment tips, expert stock market advice, and in-depth stock analysis. We're here to provide the guidance you need to make informed decisions and secure your financial future.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "next-auth",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: InvestorInsights,
+    live_link: "https://investor-hints.vercel.app/",
+    source_code_link: "https://github.com/Shahriyar-Hosen",
+  },
+  {
+    name: "Ticoli",
+    description:
+      "Tech and art enthusiasts are collaborating to create an engaging solution for children's education, addressing the issue of screen time diminishing their interest in learning.",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ticoli,
+    live_link: "https://ticoli.vercel.app/",
+    source_code_link: "https://github.com/Shahriyar-Hosen",
+  },
+  {
+    name: "The Sultan Luxury hotel",
+    description:
+      "The Sultan Luxury hotel is a hotel facilities and room booking website.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Context-API",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: TheSultanLuxuryHotel,
+    live_link: "https://sultan-luxury-hotel.web.app/",
+    source_code_link: "https://github.com/Shahriyar-Hosen",
+  },
+  {
     name: "Travel Agency",
     description:
       "This is a travel agency and booking website. This app is help full for travelers. Through it, travelers can get ideas about different places and can get details or ideas about that place.",
@@ -277,52 +438,52 @@ const projects = [
     ],
     image: travelAgency,
     live_link: "https://traveling-agency.web.app/",
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Shahriyar-Hosen",
   },
-  {
-    name: "Caliph Tools Manufacturer",
-    description:
-      "This is a website for a tools manufacturer that provides different user interfaces for both general users and admin users.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: toolsManufacturer,
-    live_link: "https://caliph-tools-manufacturer.web.app/",
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "BD Books Warehouse",
-    description:
-      "This app is related to product storage accounting and product management.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: booksWarehouse,
-    live_link: "",
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Caliph Tools Manufacturer",
+  //   description:
+  //     "This is a website for a tools manufacturer that provides different user interfaces for both general users and admin users.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: toolsManufacturer,
+  //   live_link: "https://caliph-tools-manufacturer.web.app/",
+  //   source_code_link: "https://github.com/Shahriyar-Hosen",
+  // },
+  // {
+  //   name: "BD Books Warehouse",
+  //   description:
+  //     "This app is related to product storage accounting and product management.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Bootstrap",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: booksWarehouse,
+  //   live_link: "",
+  //   source_code_link: "https://github.com/Shahriyar-Hosen",
+  // },
 ];
 
 // " " Means <br/>
@@ -342,4 +503,4 @@ const about = [
   do if you had a software expert available at your fingertips?`,
 ];
 
-export { about, services, technologies, experiences, testimonials, projects };
+export { about, experiences, projects, services, technologies, testimonials };
